@@ -1,0 +1,57 @@
+GitHub and Kaggle
+
+Looks good. End of this one: https://github.com/rob-med/awesome-TS-anomaly-detection
+
+Already included in the first url: https://www.kaggle.com/datasets/boltzmannbrain/nab
+
+Already included in the first url. Looks good: https://www.kaggle.com/datasets/yuriykatser/skoltech-anomaly-benchmark-skab
+
+Looks good: https://www.kaggle.com/code/drscarlat/anomaly-detection-in-multivariate-time-series/data
+
+Does not look really promising: https://www.kaggle.com/datasets/arbazkhan971/anomaly-detection 
+
+Discardable: https://www.kaggle.com/general/42760
+
+
+
+ACM Digital Library
+
+Interesting: https://dl.acm.org/doi/10.14778/3529337.3529354
+
+
+
+IEEE Xplore
+
+There are several mentions to the Numenta.
+
+See "III. Benchmark Results and Analysis" https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7388055
+
+See "Section IV. Experimental Results"
+
+This one should be something similar to the one included in the firt one form Kaggle https://webscope.sandbox.yahoo.com/
+
+
+
+Semantic Scholar
+
+Interesting: https://www.semanticscholar.org/paper/Exathlon%3A-A-Benchmark-for-Explainable-Anomaly-over-Jacob-Song/0ec3399ea7e1d56a045252b83c40368c7ee5e0eb
+
+
+
+Scopus
+
+Ahmad2017 -> proof of the usage of Numenta.
+
+Laptev2015 -> proof of the usage of Yahoo.
+
+
+
+Google Scholar
+
+Aparecen los ya vistos.
+
+Interesting: https://github.com/datamllab/tods/tree/benchmark
+
+
+
+
