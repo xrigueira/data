@@ -5,16 +5,16 @@
  [This](https://github.com/rob-med/awesome-TS-anomaly-detection) is a very nice collection of anomaly detection algorithms and several anomaly-labeled databases at the end of the webside: NAB, Yahoo's, and SKAB.
 
 ## Numenta/NAB
-One of the most widely used labeled databases for the validation of anomaly detection methods. [Kaggle - NAB](https://www.kaggle.com/datasets/boltzmannbrain/nab). [GitHub - NAB](https://github.com/numenta/NAB). The NAB corpus of 58 timeseries data files is designed to provide data for research in streaming anomaly detection. It is comprised of both real-world and artifical timeseries data containing labeled anomalous periods of behavior. The majority of the data is real-world from a variety of sources such as AWS server metrics, Twitter volume, advertisement clicking metrics, traffic data, and more.
+One of the most widely used labeled databases for the validation of **univariate** anomaly detection methods. [Kaggle - NAB](https://www.kaggle.com/datasets/boltzmannbrain/nab). [GitHub - NAB](https://github.com/numenta/NAB). The NAB corpus of 58 timeseries data files is designed to provide data for research in streaming anomaly detection. It is comprised of both real-world and artifical timeseries data containing labeled anomalous periods of behavior. The majority of the data is real-world from a variety of sources such as AWS server metrics, Twitter volume, advertisement clicking metrics, traffic data, and more.
 
 ## Yahoo's Webscope S5
-Another one of the most widely labeled databases for the same purposes. [website - Webscope S5](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70). The dataset consists of real and synthetic time-series with tagged anomaly points. The dataset tests the detection accuracy of various anomaly-types including outliers and change-points. The synthetic dataset consists of time-series with varying trend, noise and seasonality. The real dataset consists of time-series representing the metrics of various Yahoo services.
+Another one of the most widely labeled **univariate** databases for the same purposes. [website - Webscope S5](https://webscope.sandbox.yahoo.com/catalog.php?datatype=s&did=70). The dataset consists of real and synthetic time-series with tagged anomaly points. The dataset tests the detection accuracy of various anomaly-types including outliers and change-points. The synthetic dataset consists of time-series with varying trend, noise and seasonality. The real dataset consists of time-series representing the metrics of various Yahoo services.
 
 ## SKAB
-Skoltech Anomaly Benchmark (SKAB) is designed for evaluating the anomaly detection algorithms. [Kaggle - SKAB](https://www.kaggle.com/datasets/yuriykatser/skoltech-anomaly-benchmark-skab). [GitHub - SKAB](https://github.com/waico/SkAB) It allows working with two main problems: outlier detection and changepoint detection. It is composed of (i) datasets, (ii) leaderboard (scoreboard), (iii) python modules for algorithms’ evaluation, and (iv) notebooks: python notebooks with anomaly detection algorithms.
+Skoltech Anomaly Benchmark (SKAB) is designed for evaluating **multivariate** anomaly detection algorithms. [Kaggle - SKAB](https://www.kaggle.com/datasets/yuriykatser/skoltech-anomaly-benchmark-skab). [GitHub - SKAB](https://github.com/waico/SkAB) It allows working with two main problems: outlier detection and changepoint detection. It is composed of (i) datasets, (ii) leaderboard (scoreboard), (iii) python modules for algorithms’ evaluation, and (iv) notebooks: python notebooks with anomaly detection algorithms.
 
 ## scarlat database
- It contains 11 variables with more than 509k data points each plus their labels which account for a total of 443 rows.
+ It contains **11 variables** with more than 509k data points each plus their labels which account for a total of 443 rows.
  [Kaggle -scarlat database](https://www.kaggle.com/code/drscarlat/anomaly-detection-in-multivariate-time-series/notebook)
 
 ## TSB-UAD benchmark
