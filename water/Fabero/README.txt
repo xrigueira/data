@@ -1,0 +1,1 @@
+The database (p) was divided in two different parts: p1 until the closure of the mine and p2 after the closure of the mine.
