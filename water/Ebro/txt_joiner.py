@@ -3,11 +3,10 @@ variable, joins them consequtively and makes some
 format changes (header, dots, first and last line)"""
 
 import os
-import pandas as pd
-
 # Define the files to join
-folderNames = ['903 - Arga en Echauri - A069']
-fileNames = ['absorbance', 'ammonium']
+folderNames = ['911 - Zadorra en Arce - A074']
+fileNames = ['absorbance', 'ammonium', 'conductivity', 'dissolved_oxygen', 'pH', 'phosphates', 'turbidity', 'water_flow', 'water_level', 'water_temperature']
+
 
 # Read a file and delete the first 10 lines
 def rowDel(file_in, n_rows):
@@ -16,7 +15,7 @@ def rowDel(file_in, n_rows):
     index = file_in.find('/') + 1
     file_out = file_in[:index] + 'temp_' + file_in[index:]
 
-    with open(file_in, 'r') as fin, open(file_out, 'w') as fout:
+    with open(file_in, 'r', encoding='utf-8') as fin, open(file_out, 'w') as fout:
         # Skip the first n_rows lines
         for _ in range(n_rows):
             try:
@@ -83,7 +82,7 @@ if __name__ == '__main__':
     for folderName in folderNames:
 
         for fileName in fileNames:
-
+            print(fileName)
             files = [f'{folderName}/{fileName} 9904.txt', f'{folderName}/{fileName} 0510.txt',
                     f'{folderName}/{fileName} 1116.txt', f'{folderName}/{fileName} 1722.txt']
 
@@ -91,7 +90,7 @@ if __name__ == '__main__':
                         f'{folderName}/temp_{fileName} 1116.txt', f'{folderName}/temp_{fileName} 1722.txt']
             
             for f in files:
-
+                print(f)
                 rowDel(file_in=f, n_rows=11)
 
             conc_file_name = concatenator(files=files_temp, folderName=folderName, fileName=fileName)
