@@ -4,8 +4,14 @@ format changes (header, dots, first and last line)"""
 
 import os
 # Define the files to join
-folderNames = ['911 - Zadorra en Arce - A074']
-fileNames = ['absorbance', 'ammonium', 'conductivity', 'dissolved_oxygen', 'pH', 'phosphates', 'turbidity', 'water_flow', 'water_level', 'water_temperature']
+folderNames = ['966 - EQ - Bombeo Les Olles Delta Ebro']
+
+# List file names
+archivos = os.listdir(folderNames[0])
+archivos = list(dict.fromkeys([i[:-9] for i in archivos]))
+print(archivos)
+
+fileNames = ['absorbance', 'ammonium', 'conductivity', 'dissolved_oxygen', 'nitrates', 'pH', 'turbidity', 'water_flow_canal_A', 'water_flow_canal_B', 'water_flow_canal_C', 'water_flow_canal_D', 'water_level_canal_A', 'water_level_canal_B', 'water_level_canal_C', 'water_level_canal_D', 'water_temperature']
 
 
 # Read a file and delete the first 10 lines
