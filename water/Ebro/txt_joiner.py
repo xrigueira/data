@@ -32,7 +32,7 @@ def rowDel(file_in, n_rows):
         for line in fin:
             fout.write(line)
 
-# Concatenates the clean files
+# Concatenates the clean files (without the firts 10 rows)
 def concatenator(files, folderName, fileName):
 
     conc_file_name = f'{folderName}/{fileName}_{folderName[0:3]}.txt'
@@ -44,7 +44,7 @@ def concatenator(files, folderName, fileName):
     
     return conc_file_name
 
-# Add header, change comma for dots
+# Add header and change the commas for dots
 def header_doter(file_in):
     with open(file_in, 'r+') as fin:
         # Read the existing contents of the file

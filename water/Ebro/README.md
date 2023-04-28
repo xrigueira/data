@@ -1,6 +1,6 @@
 If more data is needed it can be requested here https://saica.chebro.es/sugerencias.php
 
-HOW TO DOWNLOAD QUICKLY:
+## How to download data quickly
 
 Copy and paste the following url in the browser:
 
@@ -23,4 +23,24 @@ De esa forma se abrirá la pantalla de descarga y se nos mostrará su url, por e
 https://saica.chebro.es/exportrun.php?tag=7022&fini=28-01-2018&ffin=28-02-2023
 
 De esta forma ya sabemos la tag adecuada y nos ahorramos hacer 4 intervalos de 5 años con simplemente cambiar los parámetros fini y ffin.
+
+## How txt_joiner.py works
+
+1. Starts from the original files downloaded, for example:
+	ammonium 9904.txt, ammonium 0510.txt, ammonium 1116.txt, ammonium 1722.txt.
+
+	The parameter 'folderNames' defines the station to process and the parameter 'fileNames' the variables in the station.
+
+	Each file contains data from the 5 years defined in the name. It had to be done this way because 5 years in the maximum range the website allows.
+
+2. Delete the first 10 rows of each file. These rows contain information on the station and the variables, but they are not time series data.
+
+3. Concatenate the data from the 4 files of each variable.
+
+4. Check if the first row is 01-01-1999 00:00:00 and if not, add it.
+
+5. Check if the last row is 31-12-2022 23:45:00 and if not, add it.
+
+6. The output for the example given aboved would be: ammonium_{station numer}
+
 
