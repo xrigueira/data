@@ -1,0 +1,5 @@
+# Ignore all csv files
+# water/Ebro/**/*.csv
+
+# Ingnore the venv
+venv
