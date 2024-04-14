@@ -1,0 +1,11 @@
+CONFEDERACIÓN HIDROGRÁFICA DEL EBRO
+Red de alerta de calidad
+Proyecto SAICA
+Fichero de exportación de datos históricos.
+No se incluyen valores considerados como <<no válidos>>.
+914-Canal de Serós en Lleida
+Nitratos (mg/L NO3)
+Fecha inicial: 01-01-2011 00:00:00
+Fecha final: 31-12-2016 23:59:59
+
+Fecha;Valor

@@ -1,0 +1,11 @@
+CONFEDERACIÓN HIDROGRÁFICA DEL EBRO
+Red de alerta de calidad
+Proyecto SAICA
+Fichero de exportación de datos históricos.
+No se incluyen valores considerados como <<no válidos>>.
+918-Aragón en Gallipienzo
+Temperatura del agua (ºC)
+Fecha inicial: 01-01-2017 00:00:00
+Fecha final: 31-12-2022 23:59:59
+
+Fecha;Valor
